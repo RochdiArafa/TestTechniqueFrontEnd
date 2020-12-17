@@ -1,7 +1,16 @@
 export class User{
+  private _id;
   private _nom;
   private _prenom;
   private _nombre_enfants;
+
+  get id() {
+    return this._id;
+  }
+
+  set id(value) {
+    this._id = value;
+  }
 
   get nom() {
     return this._nom;

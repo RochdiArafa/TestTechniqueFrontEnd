@@ -1,1 +1,26 @@
-<p>user-card works!</p>
+<form>
+    <fieldset>
+
+        <table class="container">
+            <tr>
+                <td>
+                    <img id="imgdel" src="assets/images/delete.png" alt="option" width="22" height="22" (click)="deleteUser()">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                    <td><label class="title" for="nom">NOM</label> <br><input type="text" id="nom" value="{{nom}}" disabled></td>
+                </tr>
+        
+                <tr>
+                    <td><label class="title" for="prenom">PRENOM</label> <br><input type="text" id="prenom" value="{{prenom}}" disabled></td>
+                </tr>
+        
+                <tr>
+                    <td><label class="title" for="nb_enfant">NOMBRE D'ENFANT</label> <br><input type="text" id="nb_enfant" value="{{nb_enfant}}" [(ngModel)]="nb_enfant" [ngModelOptions]="{standalone: true}"
+                            ></td>
+                </tr>
+        </table>
+        <br>
+    </fieldset>
+</form>

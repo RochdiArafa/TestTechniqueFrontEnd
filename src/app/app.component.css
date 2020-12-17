@@ -1,0 +1,42 @@
+
+#config{
+    background-color: blueviolet;
+    height: 100vh;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;    
+}
+
+#cart{
+    background-color: #FFF;
+    width: 100%;
+}
+fieldset{
+    margin-left: 40px;
+    border: 2px dotted rgb(156, 156, 156);
+}
+
+button {
+    transition-duration: 0.4s;
+    background-color: #4CAF50; /* Green */
+    border: 0px;
+    color: #FFF;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px; 
+  }
+  
+  #selectbtn{
+    transition-duration: 0.4s;
+    background-color: blueviolet; /* Green */
+    border: 0px;
+    color: #FFF;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px; 
+  }
+
+img{
+    padding-right: 5px;
+}
+
+

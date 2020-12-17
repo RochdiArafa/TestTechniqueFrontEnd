@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "_nom": "Arafa",
+      "_prenom": "Rachid",
+      "_nombre_enfants": 2
+    },
+    {
+      "id": 2,
+      "_nom": "Arafa",
+      "_prenom": "Mbarek",
+      "_nombre_enfants": 3
+    },
+    {
+      "id": 3,
+      "_nom": "Arafa",
+      "_prenom": "Khalid",
+      "_nombre_enfants": 3
+    },
+    {
+      "_nombre_enfants": "55",
+      "_nom": "ben arafa",
+      "_prenom": "ahmed",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+#imgdel{
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+fieldset{
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 8px; 
+    margin-bottom: 20px;
+}
+
+table{
+    text-align: center;
+}
